@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         message_tv = findViewById(R.id.message_tv) as TextView
         val navigation = findViewById(R.id.navigation) as BottomNavigationView
-        navigation.setOnNavigationItemSelectedListener(BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
+        navigation.setOnNavigationItemSelectedListener(BottomNavigationView.OnNavigationItemSelectedListener {
+            when (it.itemId) {
                 R.id.navigation_home -> {
                     message_tv!!.setText(R.string.title_home)
                     return@OnNavigationItemSelectedListener true
