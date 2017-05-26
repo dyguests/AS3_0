@@ -8,7 +8,7 @@
     tools:context="com.fanhl.as3_0.MainActivity">
 
     <TextView
-        android:id="@+id/message_tv"
+        android:id="@+id/msg_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
